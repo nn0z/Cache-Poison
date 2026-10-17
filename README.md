@@ -25,3 +25,8 @@ A security tool that detects **web cache** vulnerabilities in web applications.
 
 - Python 3.10+
 - `httpx`, `rich`
+
+## Disclaimer
+This tool is created for educational purposes, authorized security assessments, and Bug Bounty programs only.
+The developer assumes no liability and is not responsible for any misuse or damage caused by this program.
+Use responsibly and only on targets you have explicit permission to test.
