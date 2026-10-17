@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 os.environ["PYTHONIOENCODING"] = "UTF8"
 os.environ["COLORTERM"] = "truecolor"
