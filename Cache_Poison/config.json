@@ -1,6 +1,14 @@
 {
-    "rate_limit_per_minute": 60,
-    "min_delay_seconds": 0.5,
+    "_help": [
+        "profile:",
+        "stealth = 30 req/min ( Safest )",
+        "balanced = 60 req/min ( Default )",
+        "fast = 180 req/min ( Risk )"
+    ],
+    "profile": "fast",
     "timeout_seconds": 12.0,
-    "max_requests_per_scan": 500
+    "max_requests_per_scan": 700,
+    "max_phase_requests": 120,
+    "poison_settle_seconds": 5.0,
+    "confirm_max_reflections": 5
 }
